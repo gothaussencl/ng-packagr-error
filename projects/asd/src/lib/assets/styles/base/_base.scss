@@ -1,0 +1,113 @@
+$text-xs:0.75rem;
+$text-sm:0.875rem;
+$text-md:1rem;
+$text-lg:1.25rem;
+$display-sm:1.75rem;
+$display-md:2.25rem;
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-size: 0.875rem;
+	color: $BlackBech100;
+	font-family: 'Source Sans', sans-serif;
+	line-height: 150%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-tap-highlight-color: transparent;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	font-size: 1.5rem;
+}
+h3 {
+	font-size: 1.25rem;
+}
+h4 {
+	font-size: 1.125rem;
+}
+h5 {
+	font-size: 1rem;
+}
+h6 {
+	font-size: 0.875rem;
+}
+
+.t-extrabold {
+	font-weight: 800;
+}
+.t-bold {
+	font-weight: 700;
+}
+.t-semibold {
+	font-weight: 600;
+}
+.t-regular {
+	font-weight: 400;
+}
+.p-small,
+small {
+	font-size: 0.75rem;
+}
+
+.text {
+	line-height: 150%;
+	&-xs {
+		font-size: $text-xs;
+    font-weight: 400;
+		&-b {
+			font-weight: 700;
+      font-size: $text-xs;
+		}
+	}
+	&-sm {
+		font-size: $text-sm;
+    font-weight: 400;
+		&-b {
+			font-weight: 700;
+      font-size: $text-sm;
+		}
+	}
+	&-md {
+		font-size: $text-md;
+    font-weight: 400;
+		&-b {
+			font-weight: 700;
+      font-size: $text-md;
+		}
+	}
+	&-lg {
+		font-size: $text-lg;
+    font-weight: 400;
+		&-b {
+			font-weight: 700;
+      font-size: $text-lg;
+		}
+	}
+}
+
+.display {
+	line-height: 150%;
+	&-sm {
+		font-size: $display-sm;
+    font-weight: 400;
+		&-b {
+			font-weight: 700;
+      font-size: $display-sm;
+		}
+	}
+	&-md {
+		font-size: $display-md;
+    font-weight: 400;
+		&-b {
+			font-weight: 700;
+      font-size: $display-md;
+		}
+	}
+}

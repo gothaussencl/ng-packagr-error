@@ -1,0 +1,385 @@
+// COLORES
+
+$OrangeBech100: #FF9000;
+$OrangeBech50: #FFC880;
+$OrangeBech40:#FFD399;
+$OrangeBech20:#FFE9CC;
+$OrangeBech10: #FFF4E6;
+$OrangeBech5: #FFF9F2;
+
+$AccentBech120: #324090;
+$AccentBech100: #3468B7;
+$AccentBech90: #6573c3;
+$AccentBech50: #9FA8DA;
+$AccentBech40:#B2B9E1;
+$AccentBech20:#D8DCF0;
+$AccentBech10: #ECEEF8;
+$AccentBech5: #F5F6FB;
+
+$BlackBech100: #2C3038;
+$BlackBech80: #565960;
+$BlackBech70: #6B6E74;
+$BlackBech50: #96989C;
+$BlackBech40: #ABACAF;
+$BlackBech30: #C0C1C3;
+$BlackBech20:#D5D6D7;
+$BlackBech10:#EAEAEB;
+$BlackBech5:#F4F4F5;
+
+$GreenEmerald120:#117A65;
+$GreenEmerald110:#15987E;
+$GreenEmerald100: #1ABC9C;
+$GreenEmerald50: #8DDECE;
+$GreenEmerald40:#A3E4D7;
+$GreenEmerald20:#D1F2EB;
+$GreenEmerald10: #E8F8F5;
+$GreenEmerald5: #F3FAF8;
+
+$GreenForest100: #068453;
+
+$BlueLight100:#2EA4E8;
+$BlueLight50:#97D2F4;
+$BlueLight40:#ABDBF6;
+$BlueLight20:#D5EDFA;
+$BlueLight10:#EAF6FD;
+$BlueLight5:#F5FAFE;
+
+$RedRust120: #AB3333;
+$RedRust100: #D64040;
+$RedRust90: #DA5353;
+$RedRust50: #EBA0A0;
+$RedRust40:#EFB3B3;
+$RedRust20:#F7D9D9;
+$RedRust10: #FBECEC;
+$RedRust5: #FDF5F5;
+
+$YellowGold100: #FFBF47;
+$YellowGold50: #FFDFA3;
+$YellowGold40:#FFE5B5;
+$YellowGold20:#FFF2DA;
+$YellowGold10: #FFF9ED;
+$YellowGold5: #FEFDF4;
+
+
+$White: #FFFFFF;
+
+$BlackCoal100: #343E46;
+$BlackCoal90: #485159;
+$BlackCoal80: #5D656B;
+$BlackCoal50: #9A9FA3;
+$BlackCoal40: #AEB2B5;
+$BlackCoal20: #D6D8DA;
+$BlackCoal10: #EBECED;
+$BlackCoal5: #F5F5F6;
+
+$bg_color: #F6F7F8;
+$gradient_bech: blue;
+
+
+$disabled_color:#EAEAEB;
+$disabled_text: #96989C;
+//  Alert borde 100
+//  Alert fondo 10
+
+$menu-primary:  #474E57;
+$menu-secondary:#5D6570;
+$menu-terciary:#6B737E;
+
+$warning_home_color: #FFF5D9;
+
+$wrong_color: #CE1B0D;
+$wrong_color_light:#F9EFEF;
+
+$info_color: #00AEFF;
+$info_color_light: #E6F7FF;
+
+$infog_bg_color:#F5F6F7;
+
+$black_title: #525252;
+$chevron_silver: #898989;
+$asd-color:#6C63B5;
+
+
+ $OrangeBech1002: #ffbd65;
+
+$white_color:#ffffff;
+
+
+
+$black: #000;
+// $BlackBech100: #333;
+// $bg_card: #fff;
+// $bg_card_header:#f5f5f5;
+ $card_header:#666;
+ $gris_oscuro: #333;
+// $border_card: #999;
+//  $naranjo: #ff8700;
+ $disabled: #f5f5f5;
+
+
+ $red_bech:#FB1D38;
+
+
+ $red_color: #D64040;
+
+
+ $cyan_color: #2ea4e8;
+
+ $input_border: #d9dbe0;
+ $border_color: #c3c7ce;
+
+
+
+ $text-disable: #c3c7ce;
+$bg_color: #f6f7f8;
+
+ $tap-color: #fbecd7;
+
+ $header-green: #e6f9f1;
+ $header-silver: #e9eaeb;
+
+ $header_blue: #E6E8F2;
+
+ $table_header: #ECEEF8;
+
+
+
+
+ // new vars
+ $color-arandano-10: #ebf0f8;
+ $color-arandano-20: #d6e1f1;
+ $color-arandano-40: #aec3e2;
+ $color-arandano-80: #5d86c5;
+ $color-arandano-90: #4877be;
+ $color-arandano-100: #3468b7;
+ $color-arandano-110: #2f5ea5;
+ $color-arandano-120: #2a5392;
+ $color-arandano-130: #244980;
+ 
+ $color-bw-black: #000000;
+ $color-bw-white: #ffffff;
+ 
+ $color-cordillera-10: #e6f3fc;
+ $color-cordillera-20: #cce8f9;
+ $color-cordillera-40: #99d1f3;
+ $color-cordillera-60: #66b9ee;
+ $color-cordillera-80: #33a2e8;
+ $color-cordillera-100: #008be2;
+ 
+ $color-desierto-100: #f6ebd6;
+ 
+ $color-green-10: #e6f3e7;
+ $color-green-20: #cee7cf;
+ $color-green-40: #9ccfa0;
+ $color-green-60: #6bb770;
+ $color-green-80: #399f41;
+ $color-green-100: #088711;
+ 
+ $color-grey-10: #e8e9e9;
+ $color-grey-20: #d2d3d4;
+ $color-grey-30: #bbbdbe;
+ $color-grey-40: #a4a7a8;
+ $color-grey-50: #8e9193;
+ $color-grey-70: #6b6e74;
+ $color-grey-80: #494e51;
+ $color-grey-90: #33383c;
+ $color-grey-100: #1c2226;
+ $color-grey-120: #161b1e;
+ 
+ $color-grey-greybg: #f2f3f3;
+ 
+ $color-orange-5: #fff7f0;
+ $color-orange-10: #fff2e6;
+ $color-orange-40: #ffc999;
+ $color-orange-100: #ff7900;
+ $color-orange-110: #d46400;
+ $color-orange-120: #cc6100;
+ $color-orange-130: #b35500;
+ 
+ $color-red-10: #fae8e7;
+ $color-red-40: #eba49e;
+ $color-red-60: #e2766e;
+ $color-red-80: #d8493d;
+ $color-red-100: #ce1b0d;
+ 
+ $color-yellow-10: #fff8e6;
+ $color-yellow-40: #ffe299;
+ $color-yellow-60: #ffd366;
+ $color-yellow-80: #ffc533;
+ $color-yellow-100: #ffb600;
+ $color-yellow-130: #b37f00;
+ 
+ $color-blackbech-100: #2C3038;
+ /* ICON */
+ $icon-grey: $color-grey-70;
+ $icon-info: $color-cordillera-100;
+ $icon-neutral: $color-grey-100;
+ $icon-primary: $color-orange-100;
+ $icon-secondary: $color-arandano-100;
+ $icon-success: $color-green-100;
+ $icon-white: $color-bw-white;
+ 
+ /*SURFACE*/
+ $surface-border: $color-grey-100;
+ $surface-greybg: $color-grey-greybg;
+ $surface-light-secondary: $color-arandano-10;
+ $surface-primary: $color-orange-100;
+ $surface-red: $color-red-100;
+ $surface-sand-background: $color-desierto-100;
+ $surface-secondary: $color-arandano-100;
+ $surface-white: $color-bw-white;
+ 
+ /*TEXT*/
+ $text-base-default: $color-grey-100;
+ $text-grey: $color-grey-70;
+ $text-link-default: $color-arandano-100;
+ $text-primary: $color-orange-100;
+ $text-red: $color-red-100;
+ $text-secondary: $color-arandano-100;
+ $text-white: $color-bw-white;
+ 
+ /* ALERT */
+ $alert-info-bg: $color-cordillera-10;
+ $alert-info-border: $color-cordillera-100;
+ $alert-info-icon: $color-cordillera-100;
+ $alert-info-text: $text-base-default;
+ $alert-neutral-bg: $color-grey-10;
+ $alert-neutral-border: $color-grey-80;
+ $alert-neutral-icon: $color-grey-80;
+ $alert-neutral-text: $text-base-default;
+ $alert-success-bg: $color-green-10;
+ $alert-success-border: $color-green-80;
+ $alert-success-icon: $color-green-100;
+ $alert-success-text: $text-base-default;
+ $alert-warning-bg: $color-yellow-10;
+ $alert-warning-border: $color-yellow-130;
+ $alert-warning-icon: $color-yellow-130;
+ $alert-warning-text: $text-base-default;
+ $alert-wrong-bg: $color-red-10;
+ $alert-wrong-border: $color-red-80;
+ $alert-wrong-icon: $color-red-80;
+ $alert-wrong-text: $text-base-default;
+ 
+ /*BADGE*/
+ $badge-info-bg: $color-cordillera-20;
+ $badge-info-text: $text-base-default;
+ $badge-neutral-bg: $color-grey-10;
+ $badge-neutral-text: $text-base-default;
+ $badge-success-bg: $color-green-20;
+ $badge-success-text: $text-base-default;
+ $badge-warning-bg: $color-orange-10;
+ $badge-warning-text: $text-base-default;
+ $badge-wrong-bg: $color-red-10;
+ $badge-wrong-text: $text-base-default;
+ 
+ /*BUTTON*/
+ $button-primary-filled-disabled: $color-grey-10;
+ $button-primary-filled-enabled: $color-arandano-100;
+ $button-primary-filled-focused: $color-arandano-120;
+ $button-primary-filled-hover: $color-arandano-120;
+ $button-primary-filled-icon-disabled: $color-grey-40;
+ $button-primary-filled-pressed: $color-arandano-130;
+ $button-primary-filled-text-color: $color-bw-white;
+ $button-primary-filled-text-disabled: $color-grey-40;
+ $button-primary-outlined-border-color: $color-arandano-100;
+ $button-primary-outlined-disabled: $color-grey-10;
+ $button-primary-outlined-enabled: $color-bw-white;
+ $button-primary-outlined-focused: $color-arandano-20;
+ $button-primary-outlined-hover: $color-arandano-20;
+ $button-primary-outlined-icon-color: $color-arandano-100;
+ $button-primary-outlined-icon-disabled: $color-grey-40;
+ $button-primary-outlined-pressed: $color-arandano-40;
+ $button-primary-outlined-text-color: $color-arandano-100;
+ $button-primary-outlined-text-disabled: $color-grey-40;
+ $button-primary-tonal-disabled: $color-grey-10;
+ $button-primary-tonal-enabled: $color-arandano-20;
+ $button-primary-tonal-focused: $color-arandano-40;
+ $button-primary-tonal-hover: $color-arandano-40;
+ $button-primary-tonal-icon-color: $color-arandano-100;
+ $button-primary-tonal-icon-disabled: $color-grey-40;
+ $button-primary-tonal-pressed: $color-arandano-40;
+ $button-primary-tonal-text-color: $color-arandano-130;
+ $button-primary-tonal-text-disabled: $color-grey-40;
+ 
+ $button-secondary-filled-enabled: $color-orange-100;
+ $button-secondary-filled-focused: $color-orange-120;
+ $button-secondary-filled-hover: $color-orange-110;
+ $button-secondary-filled-icon-color: $color-bw-white;
+ $button-secondary-filled-pressed: $color-orange-130;
+ $button-secondary-filled-text-color: $color-bw-white;
+ $button-secondary-outlined-border-color: $color-orange-100;
+ $button-secondary-outlined-enabled: #eb6f0000;
+ $button-secondary-outlined-focused: #eb6f001a;
+ $button-secondary-outlined-hover: #eb6f0014;
+ $button-secondary-outlined-icon-color: $color-orange-130;
+ $button-secondary-outlined-pressed: #eb6f001a;
+ $button-secondary-outlined-text-color: $color-orange-130;
+ 
+ /* HEADER */
+ $header-bg: $color-orange-100;
+ 
+ /*INPUT*/
+ $input-bg: $surface-white;
+ $input-border-enabled: $color-grey-50;
+ $input-border-error: $color-red-100;
+ $input-border-focused: $color-orange-110;
+ $input-disabled-border: $color-grey-40;
+ $input-disabled-icon: $color-grey-40;
+ $input-disabled-text: $color-grey-40;
+ $input-label-color: $color-grey-100;
+ $input-placeholder-color: $color-grey-80;
+ $input-text-color: $color-grey-100;
+ 
+ 
+ /*STEPPER*/
+ $stepper-active-bg: $color-cordillera-100;
+ $stepper-active-icon: $color-bw-white;
+ $stepper-active-text: $text-base-default;
+ $stepper-alert-bg: $color-orange-100;
+ $stepper-alert-icon: $color-bw-white;
+ $stepper-alert-text: $text-base-default;
+ $stepper-inactive-bg: $color-grey-10;
+ $stepper-inactive-border: $color-grey-20;
+ $stepper-inactive-icon: $color-bw-white;
+ $stepper-inactive-text: $text-base-default;
+ $stepper-success-bg: $color-green-100;
+ $stepper-success-icon: $color-bw-white;
+ $stepper-success-text: $text-base-default;
+ $stepper-wrong-bg: $color-red-100;
+ $stepper-wrong-icon: $color-bw-white;
+ $stepper-wrong-text: $text-base-default;
+ 
+ /*VOUCHER*/
+ $voucher-info-bg: $color-cordillera-20;
+ $voucher-info-border: $color-cordillera-80;
+ $voucher-info-icon: $color-cordillera-100;
+ $voucher-info-text: $text-base-default;
+ $voucher-neutral-bg: $color-grey-10;
+ $voucher-neutral-border: $color-grey-80;
+ $voucher-neutral-icon: $color-grey-80;
+ $voucher-neutral-text: $text-base-default;
+ $voucher-success-bg: $color-green-10;
+ $voucher-success-border: $color-green-80;
+ $voucher-success-icon: $color-green-100;
+ $voucher-success-text: $text-base-default;
+ $voucher-warning-bg: $color-yellow-10;
+ $voucher-warning-border: $color-yellow-130;
+ $voucher-warning-icon: $color-yellow-130;
+ $voucher-warning-text: $text-base-default;
+ $voucher-wrong-bg: $color-red-10;
+ $voucher-wrong-border: $color-red-80;
+ $voucher-wrong-icon: $color-red-80;
+ $voucher-wrong-text: $text-base-default;
+
+
+//  Checkbox
+
+$checkbox-border-color: #8b8c89;
+$checkbox-checked-color: #274c77;
+$checkbox-hover-color: #a3cef1;
+$checkbox-disabled-bg-color: #d9d9d9;
+
+:root {
+    accent-color: $AccentBech100;
+}
+

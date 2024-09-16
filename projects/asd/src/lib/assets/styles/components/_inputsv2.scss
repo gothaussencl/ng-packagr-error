@@ -1,0 +1,200 @@
+.asd-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  position: relative;
+
+  // Label del input
+  label {
+    font-size: 0.875rem;
+    line-height: 20px;
+    margin-bottom: 4px;
+    font-weight: 800;
+    color: $BlackBech100;
+    transition: 0.25s ease-in-out;
+  }
+
+  &:focus-within label {
+    color: $OrangeBech100;
+  }
+
+  // Se dan los styles bases para el input
+  input,
+  select,
+  textarea {
+    border-radius: 4px;
+    background-color: white;
+    border: solid 1px $input_border;
+    padding: 9px 11px;
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 800;
+    transition: 0.25s ease-in-out;
+    color: $BlackBech100;
+    -webkit-appearance: none;
+
+    &::placeholder {
+      color: $BlackBech80;
+      font-weight: 400;
+    }
+
+    &:active {
+      border: solid 1px $OrangeBech100;
+      color: $BlackBech100;
+      background: white;
+      box-shadow: 0 4px 8px 0 rgba(255, 145, 0, 0.16);
+    }
+
+    &:focus {
+      outline: 0;
+      border: solid 1px $OrangeBech100;
+      color: $BlackBech100;
+      box-shadow: 0 4px 8px 0 rgba(255, 145, 0, 0.16);
+    }
+
+    &:focus+label {
+      color: #cc0000 !important;
+    }
+
+    &:disabled {
+      //color: $BlackBech100_light;
+      font-weight: 400;
+
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  // version pequeña **checkear
+  &--small {
+    margin-bottom: 8px;
+
+    select {
+      background-position: right 7px center !important;
+    }
+
+    input,
+    select,
+    textarea {
+      padding: 5px 11px;
+      font-size: 0.875rem;
+      line-height: 20px;
+    }
+  }
+
+  // Modificador para prefijos
+  &--prefix {
+    input {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      width: 100%;
+    }
+  }
+
+  // Usar para contenedor del prefijos
+  &__prefix {
+    background: $bg_color;
+    border: solid 1px $input_border;
+    padding: 9px 11px;
+    font-size: 1rem;
+    line-height: 24px;
+    border-radius: 4px 0 0 4px;
+    border-right: 0;
+    font-weight: 800;
+  }
+
+  //Usar div para juntar input comn prefijos
+  &__prefix-group {
+    align-items: center;
+    display: flex;
+  }
+
+  // Info text debajo del input
+  &__info-text {
+    font-size: 0.75rem;
+    line-height: 16px;
+    margin-top: 4px;
+    color: $BlackBech80;
+    font-weight: 600;
+
+    // Si esta vacio no agrega margen
+    &:empty {
+      margin: 0;
+    }
+
+    &--error {
+      color: $red-color;
+    }
+  }
+}
+
+.asd-input-group {
+  display: flex;
+
+  .asd-input {
+    margin-right: 16px;
+
+    //se quita el margen al ultimo
+    &:last-child {
+      margin-right: 0;
+    }
+
+    // sirve para ajustar los inputs 
+    input {
+      width: 100%;
+    }
+  }
+}
+
+.asd-input {
+
+  &.dsd-select {
+    position: relative;
+
+    &.disabled {
+      pointer-events: none;
+      background-color: white;
+
+      select {
+        color: $BlackBech80;
+        font-weight: 400;
+      }
+
+      &:after {
+        opacity: 0.6;
+      }
+    }
+
+    // Se agrega custon chevron con svg data
+    select {
+      appearance: none;
+      padding-right: 32px;
+      background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='%23FF9100' fill-rule='evenodd' d='M19.951 7.785a.6.6 0 00-.848 0l-7.035 7.035-7.044-7.044a.6.6 0 10-.848.848l7.468 7.469a.601.601 0 00.849 0l7.458-7.46a.6.6 0 000-.848'/%3E%3C/svg%3E");
+      background-position: right 12px center;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+//Elimina estilo por defecto del select
+select~ :after {
+  display: none;
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.table__container__header__container__column>label,
+.table__container__body__row__content.check>label {
+  margin-right: 0;
+}
